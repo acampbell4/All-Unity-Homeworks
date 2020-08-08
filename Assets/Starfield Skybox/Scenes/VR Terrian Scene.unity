@@ -228,7 +228,7 @@ PrefabInstance:
     - target: {fileID: 3178243942441137246, guid: 0491b5d7cd1ac484bb647a726ef77244,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 41.45
+      value: 41.58
       objectReference: {fileID: 0}
     - target: {fileID: 3178243942441137246, guid: 0491b5d7cd1ac484bb647a726ef77244,
         type: 3}
@@ -558,9 +558,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spongebobRigidBody: {fileID: 1358868043}
   locatioin: {x: 0, y: 0, z: 0}
-  moveSpeed: 15
-  turnSpeed: 10
-  sprint: 50
+  moveSpeed: 5
+  turnSpeed: 5
+  sprint: 10
 --- !u!54 &1358868043
 Rigidbody:
   m_ObjectHideFlags: 0
