@@ -6,13 +6,15 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using UnityEngine;
-public class SimHandMove : MonoBehaviour
+public class SImHandMove : MonoBehaviour
 {
     //USe this space before the method to declare variables
     public Rigidbody spongebobRigidBody;
     public Vector3 locatioin;
     public float moveSpeed;
     public float turnSpeed;
+    public float sprint;
+
     // Start is called before the first frame update
     void Start()
     {

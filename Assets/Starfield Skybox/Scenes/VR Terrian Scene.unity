@@ -553,13 +553,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1358868041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c46fa6676e82ee4899d210722a2662e, type: 3}
+  m_Script: {fileID: 11500000, guid: d10b0174458a347429b6ae9f763d196a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spongebobRigidBody: {fileID: 0}
+  spongebobRigidBody: {fileID: 1358868043}
   locatioin: {x: 0, y: 0, z: 0}
   moveSpeed: 15
-  turnSpeed: 15
+  turnSpeed: 10
+  sprint: 50
 --- !u!54 &1358868043
 Rigidbody:
   m_ObjectHideFlags: 0
