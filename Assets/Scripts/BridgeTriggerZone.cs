@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class BridgeTriggerZone : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Animator bridgeAnimator;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider theGameObjectWeCollidedWith)
     {
-        
+        bridgeAnimator.SetTrigger("Raise");
     }
 }
