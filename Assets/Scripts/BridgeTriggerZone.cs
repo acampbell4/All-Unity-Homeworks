@@ -8,6 +8,9 @@ public class BridgeTriggerZone : MonoBehaviour
 
     private void OnTriggerEnter(Collider theGameObjectWeCollidedWith)
     {
-        bridgeAnimator.SetTrigger("Raise");
+        if(theGameObjectWeCollidedWith.tag == "Player")
+        {
+            bridgeAnimator.SetTrigger("Raise");
+        }
     }
 }
