@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject pelletPrefab;
+    public Transform spawnPoint;
+    public float shootingForce;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            //do the shooting
+
+        }
     }
 }
