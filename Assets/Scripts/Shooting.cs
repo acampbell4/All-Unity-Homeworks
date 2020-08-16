@@ -13,6 +13,8 @@ public class Shooting : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             //do the shooting
+            GameObject temporaryPellet =Instantiate(pelletPrefab, spawnPoint.position, spawnPoint.rotation);
+            temporaryPellet.GetComponent<Rigidbody>().AddForce(temporaryPellet.transform.forward * shootingForce);
 
         }
     }
