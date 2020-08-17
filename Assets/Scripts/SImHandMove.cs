@@ -47,6 +47,16 @@ public class SImHandMove : MonoBehaviour
         #endregion
         //mouse stuff//
         #region translational movement
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
+        }
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            transform.Translate(Vector3.down * Time.deltaTime * moveSpeed);
+        }
+
+
         if (Input.GetKey(KeyCode.W))
         {
             this.transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
