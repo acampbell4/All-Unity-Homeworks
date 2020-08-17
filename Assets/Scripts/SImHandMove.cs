@@ -47,13 +47,6 @@ public class SImHandMove : MonoBehaviour
         #endregion
         //mouse stuff//
         #region translational movement
-        if (Input.GetKeyDown (KeyCode.Space))
-        {
-            if (transform.position.y <= 43.00f)
-            {
-                GetComponent<Rigidbody> ().AddForce (Vector3.up * 1000);
-            } 
-        }
         if (Input.GetKey(KeyCode.W))
         {
             this.transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
