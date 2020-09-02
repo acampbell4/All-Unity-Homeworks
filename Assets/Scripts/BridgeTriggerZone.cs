@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BridgeTriggerZone : MonoBehaviour
 {
-    public Animator bridgeAnimator;
+    public Animator bridgeAnimator;  
 
     private void OnTriggerEnter(Collider theGameObjectWeCollidedWith)
     {
-        if(theGameObjectWeCollidedWith.tag == "Player")
+        if(theGameObjectWeCollidedWith.tag == "Player") 
         {
             bridgeAnimator.SetTrigger("Raise");
         }

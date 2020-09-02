@@ -12,7 +12,7 @@ public class VRInput : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if(isleftHand)
+        if(isLeftHand)
         {
             gripAxis = "LeftGrip";
         }
