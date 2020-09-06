@@ -8,7 +8,7 @@ public class SimHanggAnimator : MonoBehaviour
 
     void Start()
     {
-        simHandAnim = GetComponent<Animator>();
+        simHandAnim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
