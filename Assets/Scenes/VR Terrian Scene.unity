@@ -2776,9 +2776,12 @@ GameObject:
   - component: {fileID: 1699062656}
   - component: {fileID: 1699062658}
   - component: {fileID: 1699062657}
+<<<<<<< HEAD:Assets/Scenes/VR Terrian Scene.unity
   - component: {fileID: 1699062659}
   - component: {fileID: 1699062661}
   - component: {fileID: 1699062660}
+=======
+>>>>>>> parent of 5b88100... Added  VRInputs for Grips:Assets/Starfield Skybox/Scenes/VR Terrian Scene.unity
   m_Layer: 0
   m_Name: RightHand
   m_TagString: Untagged
@@ -2848,6 +2851,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+<<<<<<< HEAD:Assets/Scenes/VR Terrian Scene.unity
 --- !u!114 &1699062659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2888,6 +2892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collidingObject: {fileID: 0}
   heldObject: {fileID: 0}
+=======
+>>>>>>> parent of 5b88100... Added  VRInputs for Grips:Assets/Starfield Skybox/Scenes/VR Terrian Scene.unity
 --- !u!1 &1700375177
 GameObject:
   m_ObjectHideFlags: 0
@@ -3439,9 +3445,12 @@ GameObject:
   - component: {fileID: 1915475204}
   - component: {fileID: 1915475206}
   - component: {fileID: 1915475205}
+<<<<<<< HEAD:Assets/Scenes/VR Terrian Scene.unity
   - component: {fileID: 1915475207}
   - component: {fileID: 1915475209}
   - component: {fileID: 1915475208}
+=======
+>>>>>>> parent of 5b88100... Added  VRInputs for Grips:Assets/Starfield Skybox/Scenes/VR Terrian Scene.unity
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -3511,6 +3520,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14837646, y: 0.20785522, z: 0.1671753}
   m_Center: {x: -0.00289917, y: 0.0038452148, z: 0.004333496}
+<<<<<<< HEAD:Assets/Scenes/VR Terrian Scene.unity
 --- !u!114 &1915475207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3551,6 +3561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collidingObject: {fileID: 0}
   heldObject: {fileID: 0}
+=======
+>>>>>>> parent of 5b88100... Added  VRInputs for Grips:Assets/Starfield Skybox/Scenes/VR Terrian Scene.unity
 --- !u!1 &1944289121
 GameObject:
   m_ObjectHideFlags: 0
